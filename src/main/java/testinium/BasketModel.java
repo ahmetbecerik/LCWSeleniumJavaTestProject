@@ -17,5 +17,4 @@ public class BasketModel extends BaseModel{
 
         clickElement(deleteButton);
     }
-
 }

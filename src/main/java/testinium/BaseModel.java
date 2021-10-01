@@ -10,7 +10,6 @@ public class BaseModel extends Driver {
 
     WebDriverWait wait = new WebDriverWait(webDriver, 1000);
 
-
     public WebElement findElement(By by) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(by));
         return webDriver.findElement(by);
